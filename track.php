@@ -5,7 +5,7 @@ $pwd = getcwd();
 $date = date('Y-m-d H:i:s');
 if(isset($_GET['ip'])){ 
 
-    $head = $_SERVER['REQUEST_METHOD'] .' - '. $_SERVER['SERVER_PROTOCOL'] . ' - ' . $_SERVER['PHP_SELF'] . "\n" . $_SERVER['HTTP_USER_AGENT'] ;
+    $head = $_SERVER['REQUEST_METHOD'] .' - '. $_SERVER['SERVER_PROTOCOL'] . ' - ' . $_SERVER['PHP_SELF'] . ' - ' . $date . "\n" . $_SERVER['HTTP_USER_AGENT'] ;
     $ip = $_GET['ip'];
 
     $client_ip = $ip;
